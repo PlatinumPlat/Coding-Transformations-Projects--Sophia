@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div class="topnav">
+            <div class="topnavtext">
+                <a href="transformationsProject1.html">Project #1</a>
+                <a href="transformationsProject2.html">Project #2</a>
+            </div>
+        </div>
+        <div class="container">
+            <header>
+                <h1>Coding Transformations #1</h1>
+                <h3>By Sophia</h3>
+                <p>Transform a group of 3 coordinates which form a triangle across the X-Axis and Y-Axis.</p>
+            </header>
+        
+        
+            <div class="main-content">
+                <div class="control-panel">
+                    <h2>Triangle Coordinates</h2>
+                    <div class="coordinate-inputs">
+                        <div class="coordinate-group">
+                            <label>Point 1 (x₁, y₁):</label>
+                            <input type="number" id="x1" value="3" step="1" />
+                            <input type="number" id="y1" value="2" step="1" />
+                        </div>
+                        <div class="coordinate-group">
+                            <label>Point 2 (x₂, y₂):</label>
+                            <input type="number" id="x2" value="15" step="1" />
+                            <input type="number" id="y2" value="2" step="1" />
+                        </div>
+                        <div class="coordinate-group">
+                            <label>Point 3 (x₃, y₃):</label>
+                            <input type="number" id="x3" value="9" step="1" />
+                            <input type="number" id="y3" value="10" step="1" />
+                        </div>
+                    </div>
+        
+        
+                    <div class="buttons">
+                        <button id="updateTriangle">Update Triangle</button>
+                        <button id="resetTriangle">Reset</button>
+                        <button id="toggleGrid">Toggle Grid</button>
+                    </div>
+        
+        
+                    <div class="triangle-info">
+                        <h3>Triangle Coordinates</h3>
+                        <div class="info-section">
+                            <h4>Original Triangle</h4>
+                            <div id="originalCoords"></div>
+                        </div>
+                        <div class="info-section">
+                            <h4>X-Axis Reflection</h4>
+                            <div id="xReflectionCoords"></div>
+                        </div>
+                        <div class="info-section">
+                            <h4>Y-Axis Reflection (of X-Reflection)</h4>
+                            <div id="yReflectionCoords"></div>
+                        </div>
+                    </div>
+                </div>
+        
+        
+                <div class="canvas-container">
+                    <canvas id="triangleCanvas" width="800" height="600"></canvas>
+                    <div class="canvas-info">
+                        <div class="legend">
+                            <div class="legend-item">
+                                <div class="color-box original"></div>
+                                <span>Original Triangle</span>
+                            </div>
+                            <div class="legend-item">
+                                <div class="color-box x-reflection"></div>
+                                <span>X-Axis Reflection</span>
+                            </div>
+                            <div class="legend-item">
+                                <div class="color-box y-reflection"></div>
+                                <span>Y-Axis Reflection</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <script src="transformationsProject1.js"></script>
+
+</html>
