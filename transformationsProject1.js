@@ -23,10 +23,6 @@ class TriangleTransformer {
             })
         })
 
-        document.getElementById("updateTriangle").addEventListener("click", () => {
-            this.updateTriangle()
-        })
-
         document.getElementById("resetTriangle").addEventListener("click", () => {
             this.resetTriangle()
         })

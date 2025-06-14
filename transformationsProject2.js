@@ -24,10 +24,6 @@ class bpmGrapher {
             })
         })
 
-        document.getElementById("updateGraph").addEventListener("click", () => {
-            this.updateGraph()
-        })
-
         document.getElementById("resetGraph").addEventListener("click", () => {
             this.resetGraph()
         })
