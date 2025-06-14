@@ -321,6 +321,10 @@ header p {
     color: #4a5568;
 }
 
+.BPM {
+    text-align: center;
+}
+
 @media (max-width: 1200px) {
     .main-content {
         flex-direction: column;

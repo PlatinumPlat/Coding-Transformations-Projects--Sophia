@@ -152,6 +152,10 @@ header p {
     box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
 }
 
+.coordinate-grid {
+    text-align: center;
+}
+
 .buttons {
     margin-bottom: 30px;
 }
